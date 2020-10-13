@@ -9,7 +9,7 @@ import Navigation from './navigation';
 export default function App() {
   const isLoadingComplete = useCachedResources();
   const colorScheme = useColorScheme();
-
+  // adding a comment to test out GitHub
   if (!isLoadingComplete) {
     return null;
   } else {
